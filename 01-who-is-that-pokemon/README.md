@@ -12,3 +12,18 @@ Built with [Vite](https://vite.dev), [React](https://react.dev), [TypeScript](ht
 - Validate user input for Pokémon names.
 - These user inputs should be valid: e.g: `mrmime`, `Mr. Mime`, `Mr MiMe`.
 - Display a persistent counter for correct and incorrect answers.
+
+## My Implementation
+
+### Desktop View
+
+![[Desktop View]](https://github.com/user-attachments/assets/60abc942-91b0-484f-8947-dc3590fc52e9
+)
+
+### Mobile View
+
+![Mobile View](https://github.com/user-attachments/assets/7a5eedb2-e8ba-4d69-b1f3-39b801db325b)
+
+### On answer
+
+![Mobile View Answer](https://github.com/user-attachments/assets/11937a3f-4bc0-436b-b7a8-634caa8d28e2)
