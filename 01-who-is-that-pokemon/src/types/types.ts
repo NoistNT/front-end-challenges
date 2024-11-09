@@ -1,4 +1,4 @@
-import React from 'react'
+import { Dispatch, SetStateAction } from 'react'
 
 export interface Pokemon {
   id: number
@@ -15,16 +15,19 @@ export interface IScoreboard {
   score: Score
 }
 
+type setPokemon = Dispatch<SetStateAction<Pokemon>>
+type setScore = Dispatch<SetStateAction<Score>>
+
 export interface IGuessForm extends IScoreboard {
   name: string
-  setScore: React.Dispatch<React.SetStateAction<Score>>
-  setPokemon: React.Dispatch<React.SetStateAction<Pokemon>>
+  setScore: setScore
+  setPokemon: setPokemon
 }
 
 export interface IGuessButton {
-  setIsOpen: React.Dispatch<React.SetStateAction<boolean>>
-  setPokemon: React.Dispatch<React.SetStateAction<Pokemon>>
-  setScore: React.Dispatch<React.SetStateAction<Score>>
+  setIsOpen: Dispatch<SetStateAction<boolean>>
+  setPokemon: setPokemon
+  setScore: setScore
 }
 
 export interface IGuessResultsDialog {
