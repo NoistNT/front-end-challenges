@@ -3,7 +3,7 @@
 This is a Pokémon guessing game where users can play and track their progress.
 Built with [Vite](https://vite.dev), [React](https://react.dev), [TypeScript](https://typescriptlang.org) and [NES.css](https://nostalgic-css.github.io/NES.css/) library for styling.
 
-## Requeriments
+## Features
 
 - Display a random Pokémon silhouette on the homepage.
 - Show the real Pokémon image and its name when the user clicks "Guess".
@@ -12,13 +12,17 @@ Built with [Vite](https://vite.dev), [React](https://react.dev), [TypeScript](ht
 - Validate user input for Pokémon names.
 - These user inputs should be valid: e.g: `mrmime`, `Mr. Mime`, `Mr MiMe`.
 - Display a persistent counter for correct and incorrect answers.
+- Store correct and incorrect answers in local storage.
 
-## My Implementation
+## Demo
+
+#### - https://who-is-that-pokemon-app.vercel.app/
+
+## Views
 
 ### Desktop View
 
-![[Desktop View]](https://github.com/user-attachments/assets/60abc942-91b0-484f-8947-dc3590fc52e9
-)
+![[Desktop View]](https://github.com/user-attachments/assets/60abc942-91b0-484f-8947-dc3590fc52e9)
 
 ### Mobile View
 
